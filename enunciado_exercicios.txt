@@ -1,0 +1,77 @@
+﻿Exercício 1
+Sabendo que hoje o 1 dolar é equivalente a 5,36 reais.
+Fazer um programa em c#, java ou em liguagem de algoritmo que dado um valor em dolar, exiba o equivalente em reais
+
+Exemplo 1:
+Entrada: 10
+Saída: 53,60
+
+Example 2:
+Entrada: 58
+Sáida: 310,88 
+
+Exercício 2
+Fazer um programa em c#, java ou em liguagem de algoritmo que dado uma sequência numerica, exiba o número que apareceu mais vezes.
+Se dois números aparecerem com a mesma quantidade exibir o que apareceu pela primeira vez por ultimo
+
+Exemplo 1:
+Entrada: 245431234
+Saída: 4
+
+Example 2:
+Entrada: 123765423754838338788
+Sáida: 3
+
+Exercício 3
+
+Fazer um programa em c#, java ou em liguagem de algoritmo para:
+Uma lanchonete possui os seguintes produtos lanche de carne (R$20) ou de frango (R$16), batata frita (R$6) e refrigerante (R$4).
+Os lanches podem ou não vir com salada. Acréscimo de R$2
+Os lanches e a batata podem ou não vir com maionese. Acréscimo de R$1
+Desenhar as classes e criar uma função para verificar o preço do pedido
+
+Exemplo 1:
+Entrada: 1 hamburguer de carne com salada e 2 refrigerantes 
+Saída: 30 
+
+Example 2:
+Entrada: 2 hamburguer de carne sem salada, 2 batatas fritas com maionese e 1 refrigerante
+Sáida: 58
+
+
+Exercício 4
+Corrigir o programa Palindromo_Com_Erro para que ele funcione conforme a descrição abaixo 
+Dada uma string s, encontre a substring palíndrica mais longa em s. Não aceitar um s com tamanho maior que 100
+Para finalizar é para digitar "fim".
+
+Exemplo 1:
+Entrada: "babad"
+Saída: "bab"
+Obs: "aba" também é válido
+
+Example 2:
+Entrada: "cbbd"
+Sáida: "bb" 
+
+Pode ser feito em Java(corrigir Palindromo_Com_Erro.java) ou C#(corrigir Palindromo_Com_Erro.cs)
+
+Exercício 5
+Criar um programa para mostrar a sequência de Golomb. Dado um valor númerico n de entrada mostre os n primeiros valores da sequencia de Golomb
+
+Em matemática, a sequência de Golomb, em homenagem a Solomon W. Golomb (mas também chamada sequência de Silverman), é uma sequência não-decrescente de números inteiros, onde a(n) a(n) é o número de vezes em que n ocorre na sequência, começando com a(1)=1, e com a propriedade de que, para n> 1, cada um a(n) é o menor número inteiro que faz com que seja possível satisfazer a condição. Por exemplo, a(1)=1 diz que uma só ocorre o valor 1 uma vez na sequência, de modo que a(2) não pode ser 1 também, e portanto deve ser de 2.
+Os primeiros valores são: 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12 (sequência A001462 na OEIS).
+
+a(1)=1;a(n+1)=1+a(n+1-a(-a(n)))
+fonte: https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Golomb
+
+
+Exemplo 1:
+Entrada: 3
+Saída: 1, 2, 2
+
+Exemplo 2:
+Entrada: 10
+Saída: 1, 2, 2, 3, 3, 4, 4, 4, 5, 5
+
+Pode ser feito em c# ou java
+

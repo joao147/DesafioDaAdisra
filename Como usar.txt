@@ -1,0 +1,7 @@
+exercício 1 é só colocar o número em reais como argumento.
+exercício 2 é só colocar a sequencia de numeros como argumento.
+exercício 3 é necessário ter o nodejs instalado na máquico globalmente e executar "node exercicio3.js <string>" exemplo "node exercicio3.js 2 hamburguer de carne sem salada, 2 batatas fritas com maionese e 1 refrigerante".
+exercício 4 só executar o programa.
+exercício 5 executar o programa e colocar um número inteiro apos o comando.
+
+Como fiz o 3° exercício em um js não consigo enviar o arquivo original, pois o gmail não permite, enviei em .txt, é só copiar em um arquino e colocar a extensão .js e executar como explicado.
